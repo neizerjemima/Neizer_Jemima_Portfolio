@@ -1,0 +1,71 @@
+@font-face {
+  font-family: cantarellregular;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/cantrell_regular-webfont.woff") format("woff"), url("../fonts/cantrell_regular-webfont.woff2") format("woff2");
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h2 {
+  font-family: "cantarellregular", helvetica, arial;
+  font-size: 28px;
+  color: #169F95;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+#main-header {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+#main-header #logo {
+  display: block;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+}
+#main-header #main-nav {
+  margin-top: 40px;
+}
+#main-header #main-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+#main-header #main-nav ul li {
+  margin-right: 20px;
+}
+#main-header #main-nav ul li:last-child {
+  margin-right: 0;
+}
+#main-header #main-nav a {
+  color: #200020;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  #main-header #main-nav ul {
+    justify-content: flex-end;
+  }
+  #logo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+#about-us {
+  margin-bottom: 40px;
+}
+
+#founders section {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=main.css.map */
