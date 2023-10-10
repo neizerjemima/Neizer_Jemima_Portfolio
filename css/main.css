@@ -2,6 +2,22 @@
   height: 46px;
 }
 
+.burger {
+  height: 30px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .burger {
+    display: none;
+  }
+  .logo {
+    height: 82px;
+  }
+  .main-nav1, .main-nav2 {
+    height: 82px;
+  }
+}
 .box1 {
   background-color: #a7a7a7;
 }
