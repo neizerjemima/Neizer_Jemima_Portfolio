@@ -1,0 +1,17 @@
+@use '../abstracts/box' as b;
+
+.box1 {
+    background-color: b.$box-grey;
+}
+
+.box2 {
+    background-color: b.$box-darkgrey;
+}
+
+.box3 {
+    background-color: b.$box-black;
+}
+
+.box4 {
+    background-color: b.$box-white;
+}
