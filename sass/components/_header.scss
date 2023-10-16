@@ -2,14 +2,40 @@
 
 .logo {
     height: 46px;
+    width: 140px;
+    text-align: center;
+    padding-top: 10px;
 }
 
-.burger {
+#button {
     height: 30px;
-    margin-top: 10px;
+    width: 45px;
+    margin-top: 8px;
+}
+
+#burger-con{
+    display: none;
+}
+
+.main-nav1,.main-nav2 {
+    display: none;
 }
 
 
+@media screen and (min-width: 768px) {
+    
+    .social {
+        height: 116px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;   
+    }
+
+    .burger {
+        height: 45px;
+        margin-top: 15px;
+    }
+       
+}
 
 @media screen and (min-width: 1200px) {
     .burger {
@@ -19,8 +45,14 @@
     .logo {
         height: 82px;
     }
+
     .main-nav1,.main-nav2 {
+        display: block;
         height: 82px;
+        margin: 15px;
+        grid-row: 1/2;
     }
+
+    
     
 }

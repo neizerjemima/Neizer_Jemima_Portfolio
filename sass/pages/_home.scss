@@ -1,0 +1,35 @@
+@use '../abstracts/box' as b;
+
+.hero-image {
+    height: 723px;
+    text-align: center;
+    color: #ffff;
+    padding: 0;
+    grid-row: 3/3;
+
+    h2 {
+        font-size: 20px;
+        margin-top: 111px;
+        margin-left: 0;
+        grid-row: 2/3;
+    }
+}
+
+#watch {
+    opacity: 0;
+}
+
+.demo-reel {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.demo-reel:hover {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+     ~ #watch {
+    opacity: 1;
+}
+}

@@ -4,7 +4,6 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <title>Jemima Ama Neizer</title>
-        <link href="css/normalize.css" rel="stylesheet">
         <link href="css/grid.css" rel="stylesheet" />
         <link href="css/main.css" rel="stylesheet" />
     </head>
@@ -12,17 +11,37 @@
     <body>
         <h1 class="hidden">My Portfolio</h1>
         <header class="grid-con box1">
-            <div class="col-start-1 col-end-1 m-col-start-6 m-col-end-7 box4 logo">
+            <div class="col-start-1 m-col-start-6 m-col-end-7 box4 logo"> Logo
             </div> 
-            <div class="col-start-4 m-col-start-11 box2 burger"></div>
-            <div class="l-col-start-2 l-col-end-4 box3 main-nav1"></div>
-            <div class="l-col-start-9 l-col-end-11 box3 main-nav2"></div>
+            <nav class="col-start-4 m-col-start-11">
+                <h2 class="hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="burger-con">
+                    <ul id="burger-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Get in touch</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- <div class="col-start-4 m-col-start-11 box2 burger"></div> -->
+            <div class="l-col-start-2 l-col-end-4 box4 main-nav1"></div>
+            <div class="l-col-start-9 l-col-end-11 box4 main-nav2"></div>
             <div class="l-col-start-12 social box4"></div>
-
-
         </header>
 
         <main>
+            <section>
+                <div class="grid-con m-col-span-full l-col-span-full box1 hero-image">
+                    <h2> Hello, I'm <span>JEMIMA</span> Front End Developer</h2>
+                </div>
+                
+                
+                <!-- <div class="col-start-1 box4 demo-reel">
+                    <h2 id="watch">Take a peek into my portfolio</h2>
+                </div>                -->
+            </section>
             
         </main>
 
