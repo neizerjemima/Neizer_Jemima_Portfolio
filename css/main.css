@@ -1,12 +1,35 @@
 .logo {
   height: 46px;
+  width: 140px;
+  text-align: center;
+  padding-top: 10px;
 }
 
-.burger {
+#button {
   height: 30px;
-  margin-top: 10px;
+  width: 45px;
+  margin-top: 8px;
 }
 
+#burger-con {
+  display: none;
+}
+
+.main-nav1, .main-nav2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .social {
+    height: 116px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .burger {
+    height: 45px;
+    margin-top: 15px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .burger {
     display: none;
@@ -15,7 +38,10 @@
     height: 82px;
   }
   .main-nav1, .main-nav2 {
+    display: block;
     height: 82px;
+    margin: 15px;
+    grid-row: 1/2;
   }
 }
 .box1 {
@@ -23,7 +49,7 @@
 }
 
 .box2 {
-  background-color: #3d3d3d;
+  background-color: #585858;
 }
 
 .box3 {
@@ -31,5 +57,38 @@
 }
 
 .box4 {
-  background-color: #e7e7e7;
+  background-color: #e2e2e2;
+}
+
+.hero-image {
+  height: 723px;
+  text-align: center;
+  color: white;
+  padding: 0;
+  grid-row: 3/3;
+}
+.hero-image h2 {
+  font-size: 20px;
+  margin-top: 111px;
+  margin-left: 0;
+  grid-row: 2/3;
+}
+
+#watch {
+  opacity: 0;
+}
+
+.demo-reel {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.demo-reel:hover {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+.demo-reel:hover ~ #watch {
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
