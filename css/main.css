@@ -1,3 +1,8 @@
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .logo {
   height: 46px;
   width: 140px;
@@ -9,10 +14,35 @@
   height: 30px;
   width: 45px;
   margin-top: 8px;
+  transition: all 1 ease;
 }
 
 #burger-con {
   display: none;
+  position: absolute;
+  background-color: #fff;
+}
+
+#burger-con.slide-toggle {
+  display: block;
+  right: 0;
+  left: 0;
+}
+
+#burger-con ul {
+  list-style: none;
+  padding: 0;
+}
+#burger-con ul li {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000;
+  padding: 10px 0 15px 0;
+}
+#burger-con ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 21px;
 }
 
 .main-nav1, .main-nav2 {
@@ -25,13 +55,13 @@
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
   }
-  .burger {
+  .button {
     height: 45px;
     margin-top: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .burger {
+  #button {
     display: none;
   }
   .logo {
