@@ -1,0 +1,25 @@
+@use '../abstracts/box' as b;
+
+.about-image {
+    height: 407px;
+    text-align: center;
+}
+
+.name h2 {
+    margin-top: -25px;
+    font-size: 45px;
+    font-style: italic;
+    line-height: 57px;
+    font-weight: 100;
+}
+
+.name h3 span {
+    font-size: 50px;
+    padding-left: 127px;
+}
+
+.name p{
+    padding: 0 18px 0 18px; 
+    line-height: 24px;
+    margin-top: 22px;
+}
