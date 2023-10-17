@@ -91,7 +91,7 @@
 }
 
 .hero-image {
-  height: 723px;
+  height: 423px;
   text-align: center;
   color: white;
   padding: 0;
@@ -105,20 +105,47 @@
 }
 
 #watch {
-  opacity: 0;
+  grid-row: 2/3;
+  font-size: 13px;
+  background-color: #dadada;
+  text-align: center;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  grid-column: 2/-1;
 }
 
 .demo-reel {
   height: 50px;
   width: 50px;
   border-radius: 100%;
+  grid-row: 2/3;
+  margin: 10px;
 }
 
 .demo-reel:hover {
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   cursor: pointer;
 }
-.demo-reel:hover ~ #watch {
-  opacity: 1;
+.demo-reel:hover ~ #watch h4 {
+  display: contents;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+.hero-text p span {
+  padding: 10px;
+  font-size: 41px;
+}
+
+.hero-image {
+  grid-row: 1/3;
+  padding: 0;
+}
+
+.hero-text {
+  grid-row: 1/3;
+  margin-top: 129px;
 }/*# sourceMappingURL=main.css.map */
