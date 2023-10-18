@@ -51,22 +51,22 @@
 
 @media screen and (min-width: 768px) {
     
-    .social {
-        height: 116px;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;   
-    }
-
     .button {
         height: 45px;
         margin-top: 15px;
     }
 
     .social {
-        z-index: 1;
+        height: 116px; 
+        // position: absolute;
+        // margin-top: -45px;
     }
 
-    main{margin-top: -69px;}
+    // .social {
+    //     z-index: 1;
+    // }
+
+    // main{margin-top: -69px;}
 
        
 }
