@@ -2,6 +2,10 @@
   position: sticky;
 }
 
+#desktop {
+  display: none;
+}
+
 .logo {
   height: 46px;
   width: 140px;
@@ -44,10 +48,6 @@
   font-size: 21px;
 }
 
-.main-nav1, .main-nav2 {
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
   .social {
     height: 116px;
@@ -58,6 +58,12 @@
     height: 45px;
     margin-top: 15px;
   }
+  .social {
+    z-index: 1;
+  }
+  main {
+    margin-top: -69px;
+  }
 }
 @media screen and (min-width: 1200px) {
   #button {
@@ -66,11 +72,44 @@
   .logo {
     height: 82px;
   }
-  .main-nav1, .main-nav2 {
+  #desktop {
     display: block;
-    height: 82px;
-    margin: 15px;
+  }
+  #desktop ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding-right: 26px;
+  }
+  #desktop ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #000;
+  }
+  .desktop ul li {
+    text-decoration: none;
+  }
+  .desktop ul li a {
+    display: inline;
+  }
+  nav {
     grid-row: 1/2;
+    grid-column: 2/-1;
+  }
+  #burger-con {
+    display: block;
+    background: none;
+  }
+  #burger-con ul li {
+    display: inline;
+    border-bottom: none;
+    padding-right: 26px;
+  }
+  #burger-con ul li a {
+    border-bottom: none;
+  }
+  #burger-con ul li:nth-last-child(-n+2) {
+    display: none;
   }
 }
 .box1 {
