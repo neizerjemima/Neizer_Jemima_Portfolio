@@ -4,27 +4,34 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <title>Jemima Ama Neizer</title>
-        <link href="css/normalize.css" rel="stylesheet">
         <link href="css/grid.css" rel="stylesheet" />
         <link href="css/main.css" rel="stylesheet" />
     </head>
 
     <body>
         <h1 class="hidden">My Portfolio</h1>
-        <header>
-            <div id="logo">
-                <img src="images/Lgo.svg" alt="My Logo">
+        <header class="grid-con box1">
+            <div class="col-start-1 m-col-start-6 m-col-end-7 box4 logo"> Logo
             </div> 
-            <button id="burger-con"></button>
-            <nav id="main-nav">
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About Me</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Get in touch</a></li>
-                </ul>
+            <nav class="col-end-5 m-col-end-12 l-col-start-2 l-col-end-5">
+                <h2 class="hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="burger-con">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Get in touch</a></li>
+                    </ul>
+                </div>
             </nav>
-
+            <div id="desktop" class="l-col-start-8 l-col-end-12">
+            <ul>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Get in touch</a></li>
+            </ul>
+            </div>
+            <div class="m-col-start-12 social box4"></div>
         </header>
 
         <main>
