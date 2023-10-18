@@ -4,6 +4,7 @@
     position: sticky;
 }
 
+#desktop { display: none;}
 .logo {
     height: 46px;
     width: 140px;
@@ -21,8 +22,7 @@
 #burger-con{
     display: none;
     position: absolute;
-    background-color: #fff;
-    
+    background-color: #fff;   
 }
 
 #burger-con.slide-toggle {
@@ -49,11 +49,6 @@
 }
 
 
-.main-nav1,.main-nav2 {
-    display: none;
-}
-
-
 @media screen and (min-width: 768px) {
     
     .social {
@@ -66,41 +61,73 @@
         height: 45px;
         margin-top: 15px;
     }
+
+    .social {
+        z-index: 1;
+    }
+
+    main{margin-top: -69px;}
+
        
 }
 
 @media screen and (min-width: 1200px) {
     #button {
         display: none;
-
     }
+
     .logo {
         height: 82px;
     }
-
-    // #burger-con {
-    //     display: contents;
-    //     position: relative;
-
-    //     ul li {
-    //         border-bottom: none;
-    //         display: inline;
-    //         margin-right: 27px;
-    //     }
-
-    // }
-
-    // #burger-con ul li:nth-last-child(n+2) {
-    //     color: aqua;
-    // }
-
-    .main-nav1,.main-nav2 {
-        display: block;
-        height: 82px;
-        margin: 15px;
-        grid-row: 1/2;
+    
+  
+    #desktop { 
+        display: block;  
+        ul li {
+            list-style: none;
+            text-decoration: none;
+            display: inline;
+            padding-right: 26px;
+        }
+        ul li a{
+            text-decoration: none; 
+            font-size: 21px; 
+            color: #000; 
+        }
     }
 
-    
+    .desktop ul li { 
+        text-decoration: none;
+        
+    }
+    .desktop ul li a { 
+        display: inline;  
+    }
+
+    nav { 
+        grid-row: 1/2;
+        grid-column: 2/-1;
+    }
+ 
+    #burger-con {
+        display: block;
+        
+        background: none;
+        
+        ul li { display: inline;
+            border-bottom: none;
+            padding-right: 26px;
+        }
+   
+        ul li a {
+            border-bottom: none;
+        }
+
+    }
+
+   #burger-con ul li:nth-last-child(-n+2) {
+        display: none;
+    }
+   
     
 }
