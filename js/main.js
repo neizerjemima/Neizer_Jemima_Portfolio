@@ -15,3 +15,18 @@
         button.addEventListener("click", hamburgerMenu, false);
     })();
 })();
+
+// (() => {
+//     const heroImage = gsap.utils.toArray('.hero-image');
+
+//     heroImage.forEach(box => {
+//   gsap.to('.hero-image', { // this will animate ALL boxes
+//     x: -300,
+//     scrollTrigger: {
+//       trigger: '.hero-image',  // this will use the first box as the trigger
+//       scrub: true
+//     }
+//   })
+// });
+    
+// })();

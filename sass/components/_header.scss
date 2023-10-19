@@ -49,6 +49,11 @@
 }
 
 
+.hero {
+    scroll-margin-left: 100vh;
+}
+
+
 @media screen and (min-width: 768px) {
     
     .button {
@@ -128,6 +133,6 @@
    #burger-con ul li:nth-last-child(-n+2) {
         display: none;
     }
-   
+       
     
 }
