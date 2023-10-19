@@ -30,23 +30,3 @@
 // });
     
 // })();
-(() => {
-const boxes = gsap.utils.toArray('.hero-image');
-boxes.forEach(box => {
-  const anim = gsap.to(box, { x: 300, paused: true });
-  
-  heroImage.forEach(box => 
-    gsap.to('.hero-image',
-    ScrollTrigger.create({
-    trigger: box,
-    start: "left 70%",
-    onEnter: () => anim.play()
-  });
-  
-  ScrollTrigger.create({
-    trigger: box,
-    start: "right left",
-    onLeaveBack: () => anim.pause(0)
-  });
-});
-});
