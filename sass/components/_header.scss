@@ -6,25 +6,33 @@
 
 .logo {
     height: 3.9rem;
-    // width: 140px;
     text-align: center;
     padding-top: 10px;
+    margin-bottom: 3px;
 }
-#Nav-Desktop button {
-    width: 20px;
-    height: 20px;
+// #Nav-Desktop button {
+//     width: 20px;
+//     height: 20px;
+//     background: url(../images/moblie_menu.svg) no-repeat center;
+//     margin-top: 20px;
+//     margin-bottom: 20px;
+//     transition: all .5s ease;
+//     border: 0;
+//  }
+#button {
+    height: 30px;
+    width: 30px;
+    margin-top: 12px;
     background: url(../images/moblie_menu.svg) no-repeat center;
-    margin-top: 20px;
-    margin-bottom: 20px;
     transition: all .5s ease;
     border: 0;
- }
-#button, #burger {
-    height: 30px;
-    margin-top: 7px;
-    transition: all 1 ease;
-    background: url(../images/moblie_menu.svg) no-repeat center;
 }
+#button.expanded {
+    transform: rotate(90deg);
+}
+
+
+
 
 #burger-con{
     display: none;
@@ -63,49 +71,32 @@
 
 
 @media screen and (min-width: 768px) {
-    
-    .button {
-        height: 45px;
-        margin-top: 15px;
+    .logo { 
+        margin-left: 1.5rem;
+        margin-bottom: .7rem;
     }
 
     .social {
         height: 116px; 
-        // position: absolute;
-        // margin-top: -45px;
     }
 
-    // .social {
-    //     z-index: 1;
-    // }
-
-    // main{margin-top: -69px;}
-
-       
-}
-
-@media screen and (min-width: 1200px) {
     #button {
         display: none;
     }
 
-    .logo {
-        height: 82px;
-    }
-    
-  
     #desktop { 
         display: block;  
+        ul { margin-left: .5rem;}
         ul li {
             list-style: none;
             text-decoration: none;
             display: inline;
-            padding-right: 26px;
+            padding-right: 3.5rem;
         }
         ul li a{
             text-decoration: none; 
-            font-size: 21px; 
-            color: #000; 
+            font-size: 1.3rem; 
+            color: #200020; 
         }
     }
 
@@ -129,11 +120,13 @@
         
         ul li { display: inline;
             border-bottom: none;
-            padding-right: 26px;
+            padding-right: 1.6rem;
+            padding-left: 2rem;
         }
    
         ul li a {
             border-bottom: none;
+            font-size: 1.3rem;
         }
 
     }
@@ -141,6 +134,36 @@
    #burger-con ul li:nth-last-child(-n+2) {
         display: none;
     }
+
        
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        height: 5.1rem;
+    }
     
+  
+    #desktop { 
+        display: block; 
+        ul { 
+            padding-top: 2px;
+            margin-left: 2.5rem;
+        }
+        ul li a{
+            font-size: 2rem;
+        }
+    }
+
+     #burger-con {       
+        ul li { display: inline;
+            border-bottom: none;
+            padding-right: 26px;
+        }
+   
+        ul li a {
+            font-size: 2.2rem;
+        }
+
+    }   
 }
