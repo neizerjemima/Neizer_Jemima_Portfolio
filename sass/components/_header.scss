@@ -5,17 +5,25 @@
 }
 
 .logo {
-    height: 46px;
-    width: 140px;
+    height: 3.9rem;
+    // width: 140px;
     text-align: center;
     padding-top: 10px;
 }
-
-#button {
+#Nav-Desktop button {
+    width: 20px;
+    height: 20px;
+    background: url(../images/moblie_menu.svg) no-repeat center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+    border: 0;
+ }
+#button, #burger {
     height: 30px;
-    width: 45px;
-    margin-top: 8px;
+    margin-top: 7px;
     transition: all 1 ease;
+    background: url(../images/moblie_menu.svg) no-repeat center;
 }
 
 #burger-con{
@@ -29,6 +37,7 @@
     right: 0;
     left: 0;
 }
+#desktop { display: none;}
 
 #burger-con ul {
     list-style: none;
