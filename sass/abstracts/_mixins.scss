@@ -1,0 +1,12 @@
+@mixin fontFace($font-family, $file-path) {
+    @font-face {
+        font: {
+            family: $font-family;
+            weight: normal;
+            style: normal;
+        }
+        //Modern Browsers
+        src: url('#{$font/Nexa-Heavy}.ttf') format('truetype'),
+        url('#{$font/Nexa-ExtraLight}.ttf') format('truetype')
+    }
+}
