@@ -1,6 +1,6 @@
 .line-1{
     // top: 50%;  
-    width: 5.18rem;
+    width: 20.18rem;
     // border-right: 2px solid rgba(255,255,255,.75);
     font-size: 1.25rem;
     white-space: nowrap;
@@ -11,3 +11,7 @@
     // box-sizing:content-box;
 }
 
+.anim-typewriter{
+    width:0;  
+}
+@media screen and (min-width: 1200px) {}

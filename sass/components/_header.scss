@@ -9,6 +9,7 @@
     text-align: center;
     padding-top: 10px;
     margin-bottom: 3px;
+    margin-left: 1.5rem;
 }
 // #Nav-Desktop button {
 //     width: 20px;
@@ -21,8 +22,8 @@
 //  }
 #button {
     height: 30px;
-    width: 30px;
-    margin-top: 12px;
+    width: 40px;
+    margin-top: 1.2rem;
     background: url(../images/moblie_menu.svg) no-repeat center;
     transition: all .5s ease;
     border: 0;
@@ -59,11 +60,15 @@
 
     li a {
         text-decoration: none;
-        color: #000;      
-        font-size: 21px;    
+        color: #200020;      
+        font-size: 21px;  
+        font-family:'Nexa-Regular';  
     }
 }
 
+.desktop ul li :hover {
+    font-family: Nexa-Bold;
+}
 
 .hero {
     scroll-margin-left: 100vh;
@@ -91,12 +96,13 @@
             list-style: none;
             text-decoration: none;
             display: inline;
-            padding-right: 3.5rem;
+            padding-right: 3rem;
         }
         ul li a{
             text-decoration: none; 
             font-size: 1.3rem; 
             color: #200020; 
+            font-family:'Nexa-Regular'; 
         }
     }
 
@@ -151,7 +157,8 @@
             margin-left: 2.5rem;
         }
         ul li a{
-            font-size: 2rem;
+            font-size: 1.8rem;
+            font-family:'Nexa-Regular';
         }
     }
 

@@ -1,7 +1,7 @@
 @use '../abstracts/box' as b;
 
 .hero-image {
-    height: 423px;
+    // height: 423px;
     text-align: center;
     color: #ffff;
     padding: 0;
@@ -19,14 +19,7 @@
     display: none;
     grid-row: 2/3;
     font-size: 13px;
-    // text-align: left;
-    // height: 20px;
     margin-top: 16px;
-    // margin-right: 20px;
-    grid-column: 2/7;
-    padding-left: 11px;
-    // border-radius: 5px;
-    // padding-top: 2px;
 }
 
 .demo-reel {
@@ -40,23 +33,23 @@
 }
 
 .demo-reel:hover {
-    transform: scale(1.2);
     cursor: pointer;
-   
-    ~ #watch {
-    display: block;
-}
 }
 
-.hero-text p {
-    font-size: 20px;
-    margin-left: 20px;
 
-    span {
-        padding: 10px;
-        font-size: 41px;
-    }
-}
+
+
+// .hero-text {
+//     ma
+//     p {
+//         font-size: 20px;
+//         margin-left: 20px;
+//     }
+//     span {
+//         padding: 10px;
+//         font-size: 41px;
+//     }
+// }
 
 .hero-image {
     grid-row: 1/3;
@@ -65,7 +58,15 @@
 
 .hero-text {
     grid-row: 1/3;
-    margin-top: 129px;
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-family: Nexa-Bold;
+    color: #200020;
+    font-size: 20px;
+    p {
+        
+        margin-left: 20px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -86,19 +87,40 @@
         margin-top: 68px;
         grid-column: 3/7;
         border-radius: 8px;
+        grid-column: 3/7;
     }
-       .hero {
-        background-color: b.$box-darkgrey;}
 
-        .hero-image {
-            grid-column: 6/-1;
+    .demo-reel:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+       
+        ~ #watch {
+        display: block;
+    }
+    }
+
+    .hero-text {
+        grid-row: 1/3;
+        margin-top: 4.5rem;
+        line-height: 4.2rem;
+        font-size: 8rem;
+        p {
+            font-size: 3rem;
+           
         }
+    }
+    //    .hero {
+    //     background-color: b.$box-darkgrey;}
+
+        // .hero-image {
+        //     grid-column: 6/-1;
+        // }
 }
 
 @media screen and (min-width: 1200px) {
-    .hero-image {
-        height: 550px;
-    }
+    // .hero-image {
+    //     height: 550px;
+    // }
 
     .demo-reel {
         height: 75px;
@@ -112,20 +134,20 @@
     #watch {
         font-size: 22px;
         height: 35px;
-        margin-top: 72px;
+        margin-top: 76px;
         grid-column: 2/6;
         border-radius: 8px;
         margin-left: 39px;
     }
 
     .hero-text p{
-        font-size: 26px;
+        font-size: 5rem;
         margin-left: 30px;
     
-        span {
-            padding: 10px;
-            font-size: 51px;
-        }
+        // span {
+        //     padding: 10px;
+        //     font-size: 51px;
+        // }
     }
        
 }

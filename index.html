@@ -3,10 +3,6 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
         <title>Jemima Ama Neizer</title>
         <link href="css/grid.css" rel="stylesheet" />
         <link href="css/main.css" rel="stylesheet" />
@@ -14,7 +10,7 @@
 
     <body>
         <h1 class="hidden">My Portfolio</h1>
-        <header class="grid-con box4">
+        <header class="grid-con">
             <img src="images/logo-color.png" class="col-start-1 m-col-start-6 m-col-end-7 logo">
              
             <nav class="col-end-5 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-6">
@@ -30,7 +26,7 @@
                 </div>
             </nav>
            
-            <div id="desktop" class="m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-12">
+            <div id="desktop" class="m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13">
             <ul>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Get in touch</a></li>
@@ -45,16 +41,27 @@
             <!-- <div class="grid-con m-col-start-12 social box4"></div> -->
             <section class="grid-con hero">
                 <h2 class="hidden"> Hero Content</h2>
-                <img class="col-span-full box1 hero-image" src="images/" alt="Hero Image">
-                <!-- <img class="l-col-span-full box3 hero-image" src="images/" alt="Hero Image">
-                <img class="l-col-span-full box4 hero-image" src="images/" alt="Hero Image"> -->
-                <div class="col-start-1 col-end-4 hero-text" >
+                <!-- <img class="col-span-full box1 hero-image" src="images/" alt="Hero Image"> -->
+                <img class="col-span-full hero-image"
+                sizes="(max-width: 1200px) 100vw, 1200px"
+                srcset="
+                images/hero_lvkfua_c_scale,w_170.jpg 170w,
+                images/hero_lvkfua_c_scale,w_546.jpg 546w,
+                images/hero_lvkfua_c_scale,w_839.jpg 839w,
+                images/hero_lvkfua_c_scale,w_1026.jpg 1026w,
+                images/hero_lvkfua_c_scale,w_1211.jpg 1211w,
+                images/hero_lvkfua_c_scale,w_1390.jpg 1390w,
+                images/hero_lvkfua_c_scale,w_1524.jpg 1524w,
+                images/hero_lvkfua_c_scale,w_1530.jpg 1530w"
+                src="images/hero_lvkfua_c_scale,w_1530.jpg"
+                alt="hero-image">
+                <div class="col-start-1 hero-text" >
                     <p>Hello,I'm <br>JEMIMA</p>
                     <p class="line-1 anim-typewriter">Front End Developer</p>
                 </div>               
                 
                 <button class="col-start-1 box4 demo-reel"></button> 
-                <div id="watch" class="col-start-2 col-end-5"><p>A peek into my portfolio</p></div>               
+                <div id="watch" class="col-start-2 col-end-5"><p>Take a peek</p></div>               
             </section>
 
             
