@@ -1,30 +1,31 @@
+form { background-color: #200020;}
 #subscribe {
-    // margin-left: 74px;
-    // grid-row: 1/2;
     margin-top: 20px;
     display: block;
-    border: solid .2rem #141212;
-    padding-left: 78px;
+    border: solid .2rem #fff;
+    padding-left: 3rem;
     font-family: 'Nexa-Regular';
+    
     #name {
-        width: 19rem;
+        width: 15rem;
         height: 3.5rem;
         border: solid 1px #fff;
         background-color: #1F221A;
         color:#fff;
         padding: 12px;
         padding-left: 30px;
-        /* margin-bottom: 10px; */
+        background-color: #200020;
+         margin-bottom: 2rem;
         margin-top: 34px;
         font-size: 1rem;
     }
 
     #mail {
         // grid-column: 10/12;
-        width: 19rem;
+        width: 15rem;
         height: 3.5rem;
         border: solid 1px #fff;
-        background-color: #1F221A;
+        background-color: #200020;
         color:#fff;
         padding: 12px;
         margin-bottom: 10px;
@@ -36,10 +37,10 @@
     #subject {
         padding: 12px;
         padding-right: 25px;
-        background-color: #1F221A;
+        background-color: #200020;
         margin-bottom: 15px;
         color: #fff;
-        width: 38.2rem;
+        width: 15rem;
         height: 3.5rem;
         margin-bottom: 20px;
         border: solid 1.5px #fff;
@@ -49,10 +50,10 @@
     #message {
         padding: 12px;
         padding-right: 25px;
-        background-color: #1F221A;
+        background-color: #200020;
         margin-bottom: 15px;
         color: #fff;
-        width: 38.2rem;
+        width: 15rem;
         height: 6rem;
         margin-bottom: 20px;
         border: solid 1.5px #fff;
@@ -62,13 +63,13 @@
 
 #sub {
     background-color: #200020;
+    color: #fff;
     border: none;
     margin-bottom: 15px;
-    color: #fff;
     width: 7rem;
     height: 3rem;
-    font-size: 1.2rem;
-    margin-left: 15.5rem;
+    font-size: 1rem;
+    margin-left: 3.5rem;
     font-family: Nexa-Regular;
 }
 
@@ -77,7 +78,180 @@
     cursor: pointer;
     border: solid .2rem #141212;
     border-radius: .3rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: #fff;
 }
+#sub:active { color: #19a197;}
+
+@media screen and (min-width: 768px) {
+    
+     #subscribe {
+        margin-top: 20px;
+        display: block;
+        border: solid .2rem #fff;
+        padding-left: 78px;
+        font-family: 'Nexa-Regular';
+        #name {
+            width: 20.3rem;
+            height: 3.5rem;
+            border: solid 1px #fff;
+            background-color: #1F221A;
+            color:#fff;
+            padding: 12px;
+            padding-left: 30px;
+            background-color: #200020;
+            /* margin-bottom: 10px; */
+            margin-top: 34px;
+            font-size: 1rem;
+        }
+
+        #mail {
+            // grid-column: 10/12;
+            width: 20.3rem;
+            height: 3.5rem;
+            border: solid 1px #fff;
+            background-color: #200020;
+            color:#fff;
+            padding: 12px;
+            margin-bottom: 10px;
+            // margin-left: 147px;
+            margin-top: 8px;
+            font-size: 1rem;
+        }
+        
+        #subject {
+            padding: 12px;
+            padding-right: 25px;
+            background-color: #200020;
+            margin-bottom: 15px;
+            color: #fff;
+            width: 20.3rem;
+            height: 3.5rem;
+            margin-bottom: 20px;
+            border: solid 1.5px #fff;
+            font-size: 1rem;
+        }
+
+        #message {
+            padding: 12px;
+            padding-right: 25px;
+            background-color: #200020;
+            margin-bottom: 15px;
+            color: #fff;
+            width: 20.3rem;
+            height: 6rem;
+            margin-bottom: 20px;
+            border: solid 1.5px #fff;
+            font-size: 1rem;
+        }
+    }
+
+    #sub {
+        background-color: #200020;
+        color: #fff;
+        border: none;
+        margin-bottom: 15px;
+        width: 7rem;
+        height: 3rem;
+        font-size: 1.2rem;
+        margin-left: 6.5rem;
+        font-family: Nexa-Regular;
+    }
+
+    #sub:hover {
+        color: #200020;
+        cursor: pointer;
+        border: solid .2rem #141212;
+        border-radius: .3rem;
+        font-size: 1.5rem;
+        background-color: #fff;
+    }
+    #sub:active { color: #19a197;}
+    }
+
+    @media screen and (min-width: 1200px) {
+        #subscribe {
+            margin-top: 20px;
+            display: block;
+            border: solid .2rem #fff;
+            padding-left: 78px;
+            font-family: 'Nexa-Regular';
+            #name {
+                width: 19rem;
+                height: 3.5rem;
+                border: solid 1px #fff;
+                background-color: #1F221A;
+                color:#fff;
+                padding: 12px;
+                padding-left: 30px;
+                background-color: #200020;
+                /* margin-bottom: 10px; */
+                margin-top: 34px;
+                font-size: 1rem;
+            }
+    
+            #mail {
+                // grid-column: 10/12;
+                width: 19rem;
+                height: 3.5rem;
+                border: solid 1px #fff;
+                background-color: #200020;
+                color:#fff;
+                padding: 12px;
+                margin-bottom: 10px;
+                // margin-left: 147px;
+                margin-top: -27px;
+                font-size: 1rem;
+            }
+            
+            #subject {
+                padding: 12px;
+                padding-right: 25px;
+                background-color: #200020;
+                margin-bottom: 15px;
+                color: #fff;
+                width: 38.2rem;
+                height: 3.5rem;
+                margin-bottom: 20px;
+                border: solid 1.5px #fff;
+                font-size: 1rem;
+            }
+    
+            #message {
+                padding: 12px;
+                padding-right: 25px;
+                background-color: #200020;
+                margin-bottom: 15px;
+                color: #fff;
+                width: 38.2rem;
+                height: 6rem;
+                margin-bottom: 20px;
+                border: solid 1.5px #fff;
+                font-size: 1rem;
+            }
+        }
+    
+        #sub {
+            background-color: #200020;
+            color: #fff;
+            border: none;
+            margin-bottom: 15px;
+            width: 7rem;
+            height: 3rem;
+            font-size: 1.2rem;
+            margin-left: 15.5rem;
+            font-family: Nexa-Regular;
+        }
+    
+        #sub:hover {
+            color: #200020;
+            cursor: pointer;
+            border: solid .2rem #141212;
+            border-radius: .3rem;
+            font-size: 1.5rem;
+            background-color: #fff;  
+        }
+
+        #sub:active { color: #19a197;}
+    }
 

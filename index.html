@@ -4,67 +4,88 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <title>Jemima Ama Neizer</title>
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"/>
         <link href="css/grid.css" rel="stylesheet" />
         <link href="css/main.css" rel="stylesheet" />
+        <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
     </head>
 
     <body>
         <h1 class="hidden">My Portfolio</h1>
-        <header class="grid-con">
-            <img src="images/logo-color.png" class="col-start-1 m-col-start-6 m-col-end-7 logo">
-             
-            <nav class="col-end-5 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-6">
-                <h2 class="hidden">Main Navigation</h2>
-                <button id="button"></button>
-                <div id="burger-con">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Get in touch</a></li>
-                    </ul>
-                </div>
-            </nav>
-           
-            <div id="desktop" class="m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13">
-            <ul>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Get in touch</a></li>
-            </ul>
-            </div>
-            <!-- <div class="m-col-start-12 social box4"></div> -->
-        </header>
+        <header class="grid-con main-tool-bar">
+            <a class="col-start-1 m-col-start-6 l-col-start-6 logo" href="index.html"> <img src="images/logo.svg"></a>
+              
+             <nav class="col-end-5 m-col-start-2 m-col-end-5 l-col-start-2 l-col-end-6">
+                 <h2 class="hidden">Main Navigation</h2>
+                 <button id="button"></button>
+                 <div id="burger-con">
+                     <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="portfolio.html">Portfolio</a></li>
+                         <li><a href="contact.html">Get in touch</a></li>
+                     </ul>
+                 </div>
+             </nav>
+            
+             <div id="desktop" class="m-col-start-7 m-col-end-11 l-col-start-7 l-col-end-11">
+             <ul>
+                 <li><a href="portfolio.html">Portfolio</a></li>
+                 <li><a href="contact.html">Get in touch</a></li>
+             </ul>
+             </div>
+                 
+             <div class="m-col-start-12 social box4">
+                 <a href="#"><img src="images/behance.svg"  alt="behance"></a>
+                 <a href="#"><img src="images/linkedin-logo.svg" alt="linkedin-logo"></a>
+                 <a href="#"><img src="images/github.svg" alt="github"></a>
+             </div>
+         </header>
         
         
 
-        <main>
-            <!-- <div class="grid-con m-col-start-12 social box4"></div> -->
-            <section class="grid-con hero">
+        <main class="wrapper">
+            <div class="content">
+            <div class="grid-con panel green hero">
                 <h2 class="hidden"> Hero Content</h2>
                 <!-- <img class="col-span-full box1 hero-image" src="images/" alt="Hero Image"> -->
                 <img class="col-span-full hero-image"
                 sizes="(max-width: 1200px) 100vw, 1200px"
                 srcset="
-                images/hero_lvkfua_c_scale,w_170.jpg 170w,
-                images/hero_lvkfua_c_scale,w_546.jpg 546w,
-                images/hero_lvkfua_c_scale,w_839.jpg 839w,
-                images/hero_lvkfua_c_scale,w_1026.jpg 1026w,
-                images/hero_lvkfua_c_scale,w_1211.jpg 1211w,
-                images/hero_lvkfua_c_scale,w_1390.jpg 1390w,
-                images/hero_lvkfua_c_scale,w_1524.jpg 1524w,
-                images/hero_lvkfua_c_scale,w_1530.jpg 1530w"
-                src="images/hero_lvkfua_c_scale,w_1530.jpg"
+                images/heroImage_eu1jkl_c_scale,w_320.jpg 320w,
+                images/heroImage_eu1jkl_c_scale,w_634.jpg 634w,
+                images/heroImage_eu1jkl_c_scale,w_883.jpg 883w,
+                images/heroImage_eu1jkl_c_scale,w_1078.jpg 1078w,
+                images/heroImage_eu1jkl_c_scale,w_1238.jpg 1238w,
+                images/heroImage_eu1jkl_c_scale,w_1411.jpg 1411w,
+                images/heroImage_eu1jkl_c_scale,w_1561.jpg 1561w,
+                images/heroImage_eu1jkl_c_scale,w_1713.jpg 1713w,
+                images/heroImage_eu1jkl_c_scale,w_1874.jpg 1874w,
+                images/heroImage_eu1jkl_c_scale,w_1920.jpg 1920w"
+                src="images/heroImage_eu1jkl_c_scale,w_1920.jpg"
                 alt="hero-image">
-                <div class="col-start-1 hero-text" >
-                    <p>Hello,I'm <br>JEMIMA</p>
-                    <p class="line-1 anim-typewriter">Front End Developer</p>
+                <div class="col-start-1 col-end-3 m-col-end-5 hero-text" >
+                    <p>Hello, I'm<br><span id="Jay">JEMIMA</span></p>
+                    <p class="line-1 anim-typewriter">Front End <span id="dev">Developer</span></p>
                 </div>               
                 
-                <button class="col-start-1 box4 demo-reel"></button> 
-                <div id="watch" class="col-start-2 col-end-5"><p>Take a peek</p></div>               
-            </section>
-
+                <button class="col-start-1 demo-reel"></button> 
+                <div id="watch" class="col-start-2 col-end-5"><p>Take a peek</p></div>
+                              
+            </div>
+            <div class="panel red">
+                <section class="col-span-full" id="player-container">
+                    <video controls poster="images/video.jpg">
+                        <source src="video/main.mp4" type="video/mp4">
+                        <p>You're using a very old browser, that doesn;t support video playback.</p>
+                    </video>
+                </section>
+            </div> 
             
+              <div class="panel blue">
+                <h1>Panel 3</h1>
+              </div>
+        </div>
         </main>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>

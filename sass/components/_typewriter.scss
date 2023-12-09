@@ -2,9 +2,11 @@
     // top: 50%;  
     width: 20.18rem;
     // border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 1.25rem;
+    font-size: .8rem;
+    margin-left: -1.3rem;
     white-space: nowrap;
     overflow: hidden;
+    font-family: Nexa-Regular;
     // -webkit-transform: translateY(-50%);
     // transform: translateY(-50%);
     // -webkit-box-sizing:content-box;
@@ -14,4 +16,18 @@
 .anim-typewriter{
     width:0;  
 }
-@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 768px) {
+    .line-1{
+        font-size: 1.5rem;
+        margin-left: -.3rem;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+    .line-1{
+        font-size: 2.6rem;
+        margin-left: -.3rem;
+    }
+
+}
