@@ -11,8 +11,9 @@
     <body>
         <h1 class="hidden">My Portfolio</h1>
         <header class="grid-con">
-            <img src="images/logo-color.png" class="col-start-1 m-col-start-6 m-col-end-7 logo"> 
-            <nav class="col-end-5 m-col-end-12 l-col-start-2 l-col-end-5">
+           <a class="col-start-1 m-col-start-6 l-col-start-6 logo" href="index.html"> <img src="images/logo.svg"></a>
+             
+            <nav class="col-end-5 m-col-start-2 m-col-end-5 l-col-start-2 l-col-end-6">
                 <h2 class="hidden">Main Navigation</h2>
                 <button id="button"></button>
                 <div id="burger-con">
@@ -24,22 +25,31 @@
                     </ul>
                 </div>
             </nav>
-            <div id="desktop" class="m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13">
+           
+            <div id="desktop" class="m-col-start-7 m-col-end-11 l-col-start-7 l-col-end-11">
             <ul>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Get in touch</a></li>
             </ul>
             </div>
-            <!-- <div class="m-col-start-12 social box4"></div> -->
+                
+            <div class="m-col-start-12 social box4">
+                <a href="#"><img src="images/behance.svg"  alt="behance"></a>
+                <a href="#"><img src="images/linkedin-logo.svg" alt="linkedin-logo"></a>
+                <a href="#"><img src="images/github.svg" alt="github"></a>
+            </div>
         </header>
 
         <main>
             <section class="grid-con contact">
                 <img class="col-span-full box1 contact-image" src="images/" alt="Contact Hero Image">
                 <!-- <img class="col-span-full box1 contact-image" src="images/" alt="Contact Hero Image"> -->
-                <h2>CONNECT</h2>
-                <button id="connect" class="col-span-full">Contact Me</button>
-                <form method="get" action="process.php" class="col-start-1 col-end-2 m-col-start-7 m-col-end-11 l-col-start-3 l-col-end-11" id="subscribe">
+                <h2>CONNECT</h2>    
+            </section>
+            
+            <section class="grid-con">
+                <button id="connect" class="col-start-2 col-end-4 m-col-start-6 m-col-end-8">Contact Me</button>
+                <form method="get" action="process.php" class="col-span-full m-col-start-3 m-col-end-11 l-col-start-3 l-col-end-11" id="subscribe">
                     <label class="hidden">*Email</label>
                     <input id="name" type="text" placeholder="Name">
                     <input  id="mail" type="Email" required placeholder="E-MAIL">
