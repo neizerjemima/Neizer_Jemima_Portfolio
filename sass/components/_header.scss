@@ -2,31 +2,8 @@
 
 .header {
     position: sticky;
-    // top: 0;
-    // z-index: 100;
     background-color: #200020;
 }
-
-// .main-tool-bar {
-//     text-align: center;
-//     display: flex;
-//     align-items: center;
-//     // justify-content: center;
-//     // color: #fff;
-//     position: fixed;
-//     width: 100%;
-//     left: 0;
-//     top: 0;
-//     transition: ease 0.4s;
-//     &--scrolled {
-//       height: 40px;
-//     }
-// }
-// .description {
-//    height: 200vh;
-// }
-nav { position: absolute; z-index: 100;}
-
 .logo img {
     height: 3.9rem;
     text-align: center;
