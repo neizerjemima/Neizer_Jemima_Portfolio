@@ -1,0 +1,39 @@
+.zima-hero { 
+    margin-top: 2rem;
+    color: #fff;
+    font-family: 'Nexa-Regular';
+
+    h2 { text-align: center;}
+
+    img {
+        // background-color: #fff;
+        height: 80%;
+        text-align: center;
+        
+    }
+
+    span {
+        height: 20px;
+        border: solid .1rem #fff;
+        margin-right: .5rem;
+        margin-left: .5rem;
+    }
+
+}
+
+.caseText{
+    color: #fff;
+    font-family: 'Nexa-Regular';
+    p{grid-column: 1/-1;}
+}
+
+.tech { 
+    text-align: center;
+    li{
+        height: 5rem;
+        text-decoration: none;
+        line-height: 2rem;
+        align-items: center;
+        text-align: center;
+}
+}
