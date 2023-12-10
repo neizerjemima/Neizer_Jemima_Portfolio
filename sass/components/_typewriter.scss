@@ -1,16 +1,10 @@
 .line-1{
-    // top: 50%;  
     width: 20.18rem;
-    // border-right: 2px solid rgba(255,255,255,.75);
     font-size: .8rem;
     margin-left: -1.3rem;
     white-space: nowrap;
     overflow: hidden;
     font-family: Nexa-Regular;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-box-sizing:content-box;
-    box-sizing:content-box;
 }
 
 .anim-typewriter{
