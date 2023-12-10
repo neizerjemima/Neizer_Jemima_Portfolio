@@ -2,14 +2,9 @@
 
 .header {
     position: sticky;
-    top: 0;
-    z-index: 100;
+    // top: 0;
+    // z-index: 100;
     background-color: #200020;
-}
-
-.main-tool-bar--scrolled {
-    background-color: #200020; /* Set the background color when scrolled */
-    /* Add any other styles for the scrolled header */
 }
 
 // .main-tool-bar {
@@ -102,12 +97,7 @@ nav { position: absolute; z-index: 100;}
         // margin-left: 1.5rem;
         margin-bottom: .7rem;
     }
-    .hero { 
-        margin-top: -3rem;
-        height: 100vh;
-        padding: 0;
-        position: relative;
-    }
+    .hero { margin-top: -3rem;}
 
 
     .social {

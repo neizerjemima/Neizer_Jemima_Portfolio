@@ -1,20 +1,17 @@
-(() => {
-    (function () {
-        "use strict";
-        console.log("fired");
-    
+(function () {
+  "use strict";
+  console.log("fired");
 
-        let button = document.querySelector("#button");
-        let burgerMenu = document.querySelector("#burger-con");
 
-        function hamburgerMenu() {
-            burgerMenu.classList.toggle("slide-toggle");
-            button.classList.toggle("expanded");
-        }
+  let button = document.querySelector("#button");
+  let burgerMenu = document.querySelector("#burger-con");
 
-        button.addEventListener("click", hamburgerMenu, false);
-    })();
+  function hamburgerMenu() {
+      burgerMenu.classList.toggle("slide-toggle");
+      button.classList.toggle("expanded");
+  }
 })();
+
 
 (() => {
     var tl = new TimelineMax({
@@ -39,7 +36,7 @@
       tl.play();
 })();
 
-document.querySelector(".name h2").style.fontSize = "6vw";
+
 
 const player = new Plyr('Video');
 
@@ -59,27 +56,11 @@ gsap.to(panels, {
 });
 
 
+// document.querySelector(".name h2").style.fontSize = "6vw";
 
 
-// (() => {
-//   gsap.registerPlugin(ScrollTrigger);
 
-//   let container = document.querySelector('.container');
-//   let sections = gsap.utils.toArray(".panel");
-//   let getRandomColor = gsap.utils.random("red,blue,orange,purple".split(","), true);
-  
-//   let scrollTween = gsap.to('.container', {
-//     x: () => -(container.scrollWidth - document.documentElement.clientWidth) + "px",
-//     ease: "none",
-//     scrollTrigger: {
-//       trigger: container,
-//       pin: true,
-//       scrub: 1,
-//       end: () => "+=" + container.offsetWidth,
-//       invalidateOnRefresh: true,
-//     }
-//   });
-  
+
   
 //   const addSection = () => {
 //     const sectionEl = document.createElement("section");
@@ -105,17 +86,17 @@ gsap.to(panels, {
 //   }
 // })()
 
-// (() => {
-//     const header = document.querySelector('header')
-//     function stickHeader() {
-//       if(window.scrollX > 100) {
-//         header.classList.add("sticky");} 
-//         else{header.classList.remove("sticky")
-//       }
-//     }
+(() => {
+    const header = document.querySelector('header')
+    function stickHeader() {
+      if(window.scrollX > 100) {
+        header.classList.add("sticky");} 
+        else{header.classList.remove("sticky")
+      }
+    }
 
-//     window.addEventListener("scroll",stickHeader);
-// })()
+    window.addEventListener("scroll",stickHeader);
+})()
 
 // (() => {
 //   ScrollTrigger.create({
