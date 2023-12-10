@@ -7,10 +7,11 @@
         <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"/>
         <link href="css/grid.css" rel="stylesheet" />
         <link href="css/main.css" rel="stylesheet" />
+        <script defer src="js/main.js"></script>
         <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-        <script src="js/main.js"></script>
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        
     </head>
 
     <body>
@@ -51,7 +52,6 @@
             <div class="content">
             <div class="grid-con hero">
                 <h2 class="hidden"> Hero Content</h2>
-                <!-- <img class="col-span-full box1 hero-image" src="images/" alt="Hero Image"> -->
                 <img class="col-span-full hero-image"
                 sizes="(max-width: 1200px) 100vw, 1200px"
                 srcset="
@@ -88,9 +88,13 @@
         </main>
 
         <footer>
-            <div id="footer-privacy" class="col-span-full m-col-start-2 m-col-end-12">
-                <p id="price-policy">©2023 JEMIMA AMA NEIZER<span></span> All Rights Reserved<span></span>Privacy Policy</p>
-            </div>
+
+            <footer class="grid-con">
+                <div class="line col-span-full m-col-start-2 m-col-end-12"></div>
+                <div class="col-span-full m-col-start-2 m-col-end-12">
+                    <p id="price-policy">©2023 JEMIMA AMA NEIZER<span></span> All Rights Reserved<br>Privacy Policy</p>
+                </div>
+            </footer>
         </footer>
 
         

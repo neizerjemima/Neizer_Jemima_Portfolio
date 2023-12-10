@@ -7,8 +7,8 @@
 
     img {
         // background-color: #fff;
-        height: 80%;
-        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         
     }
 
@@ -24,16 +24,45 @@
 .caseText{
     color: #fff;
     font-family: 'Nexa-Regular';
-    p{grid-column: 1/-1;}
-}
+    grid-column: 2/12;
+    h3{
+        grid-column: 2/12;
+        margin-bottom: .4rem;
+        letter-spacing: .3rem;
+    }
 
-.tech { 
-    text-align: center;
-    li{
-        height: 5rem;
-        text-decoration: none;
-        line-height: 2rem;
-        align-items: center;
-        text-align: center;
+    p{   
+        grid-column: 2/12;
+        font-family: 'Nexa-Light';
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    h4 {
+        grid-column: 2/6;
+        letter-spacing: .1rem;
+        font-family: 'Nexa-Light';
+    }
+    span { 
+        color: #d4af37;
+        border: solid 2px #fff;
+        border-radius: 1.2px;
+    }
 }
+    #obj {
+        margin-bottom: 1rem;
+    }
+
+    #p-Type {
+        color: #fff;
+        grid-column: 2/12;
+        span{ color: #fff;}
+    }
+.tech { 
+    background-color: #fff;
+    text-align: center;
+    grid-column: 1/-1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 5rem;
 }
