@@ -39,6 +39,8 @@
       tl.play();
 })();
 
+document.querySelector(".name h2").style.fontSize = "6vw";
+
 const player = new Plyr('Video');
 
 const panels = gsap.utils.toArray(".panel");
@@ -55,6 +57,9 @@ gsap.to(panels, {
     pin: true,
   }
 });
+
+
+
 
 // (() => {
 //   gsap.registerPlugin(ScrollTrigger);

@@ -1,0 +1,36 @@
+
+
+.name h2 {
+    margin-top: -25px;
+    font-size: 45px;
+    font-style: italic;
+    line-height: 57px;
+    font-weight: 100;
+}
+
+.name h3 span {
+    font-size: 50px;
+    padding-left: 127px;
+}
+
+.name p{
+    padding: 0 18px 0 18px; 
+    line-height: 25px;
+    margin-top: 22px;
+}
+
+.name h2{
+    animation: in 1s;
+}
+
+@keyframes in {
+    from{
+        letter-spacing: 35px;
+        filter: blur(5px);
+        opacity: 0;
+    }to{
+        letter-spacing: 0;
+        filter: blur(0);
+        opacity: 1px;
+    }
+}

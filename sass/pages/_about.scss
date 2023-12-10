@@ -2,30 +2,13 @@
 .about {
     color: #fff;
     font-family: 'Nexa-Regular';
+    margin-top: 5rem;
 }
 .about-image {
     height: 407px;
     text-align: center;
 }
 
-.name h2 {
-    margin-top: -25px;
-    font-size: 45px;
-    font-style: italic;
-    line-height: 57px;
-    font-weight: 100;
-}
-
-.name h3 span {
-    font-size: 50px;
-    padding-left: 127px;
-}
-
-.name p{
-    padding: 0 18px 0 18px; 
-    line-height: 25px;
-    margin-top: 22px;
-}
 .quote{
     line-height: 25px;
     color: #fff;
@@ -63,9 +46,9 @@
     .about-image {
         height: 490px;
     }
-    .about {
-        margin-top: -2.5rem;
-    }
+    // .about {
+    //     margin-top: -2.5rem;
+    // }
 
     .name {
         grid-row: 1/3;
