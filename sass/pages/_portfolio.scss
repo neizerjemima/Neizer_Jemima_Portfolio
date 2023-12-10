@@ -1,43 +1,41 @@
 #mCharaters {
     border: solid 3px #fff ;
-    padding: 10px 8px;
-    grid-column: 7/12;
+    grid-column: 6/11;
     margin-bottom: 20px;
     grid-row: 2/2;
+    font-family: 'Nexa-Regular';
 }
 
 #earbuds {
     border: solid 3px #fff ;
-    padding: 10px 8px;
-    grid-column: 2/7;
+    grid-column: 2/6;
     margin-bottom: 20px;
     grid-row: 2/2;
     font-family: 'Nexa-Regular';
+    font-size: 10px;
 }
 
 #zima-proj {
     border: solid 3px #fff;
-    padding: 10px 8px;
-    grid-column: 2/7;
+    grid-column: 2/6;
     margin-bottom: 20px;
     grid-row: 1/2;
     font-family: 'Nexa-Regular';
-    img{ margin-left: -85px;}
+    img{ margin-left: -37px;}
     
 }
 
 #allure-proj {
     border: solid 3px #fff ;
-    padding: 10px 8px;
-    grid-column: 7/12;
+    grid-column: 6/11;
     margin-bottom: 20px;
-    margin-left: 50px;
+  
     grid-row: 1/2;
     font-family: 'Nexa-Regular';
     img { 
-        margin-left: 60px;
-        height: 305px;
+        height: 254px;
         text-align: center;
+        margin-left: 10px;
     }
 }
 .coming a {
@@ -50,4 +48,115 @@
     background-color: #ffffff84;
     color: #200020;
     text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+#mCharaters {
+    border: solid 3px #fff ;
+    grid-column: 6/11;
+    margin-bottom: 20px;
+    grid-row: 2/2;
+    font-family: 'Nexa-Regular';
+}
+
+#earbuds {
+    border: solid 3px #fff ;
+    grid-column: 2/6;
+    margin-bottom: 20px;
+    grid-row: 2/2;
+    font-family: 'Nexa-Regular';
+    font-size: 10px;
+}
+
+#zima-proj {
+    border: solid 3px #fff;
+    grid-column: 2/6;
+    margin-bottom: 20px;
+    grid-row: 1/2;
+    font-family: 'Nexa-Regular';
+    img{ margin-left: -37px;}
+    
+}
+
+#allure-proj {
+    border: solid 3px #fff ;
+    grid-column: 6/11;
+    margin-bottom: 20px;
+  
+    grid-row: 1/2;
+    font-family: 'Nexa-Regular';
+    img { 
+        height: 254px;
+        text-align: center;
+        margin-left: 10px;
+    }
+}
+.coming a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Nexa-Regular';
+}
+
+.pro {
+    background-color: #ffffff84;
+    color: #200020;
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 1200px) {
+    #mCharaters {
+        border: solid 3px #fff ;
+        padding: 10px 8px;
+        grid-column: 7/12;
+        margin-bottom: 20px;
+        grid-row: 2/2;
+    }
+    
+    #earbuds {
+        border: solid 3px #fff ;
+        padding: 10px 8px;
+        grid-column: 2/7;
+        margin-bottom: 20px;
+        grid-row: 2/2;
+        font-family: 'Nexa-Regular';
+    }
+    
+    #zima-proj {
+        border: solid 3px #fff;
+        padding: 10px 8px;
+        grid-column: 2/7;
+        margin-bottom: 20px;
+        grid-row: 1/2;
+        font-family: 'Nexa-Regular';
+        img{ margin-left: -85px;}
+        
+    }
+    
+    #allure-proj {
+        border: solid 3px #fff ;
+        padding: 10px 8px;
+        grid-column: 7/12;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        grid-row: 1/2;
+        font-family: 'Nexa-Regular';
+        img { 
+            margin-left: 60px;
+            height: 305px;
+            text-align: center;
+        }
+    }
+    .coming a {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Nexa-Regular';
+    }
+    
+    .pro {
+        background-color: #ffffff84;
+        color: #200020;
+        text-align: center;
+    }
 }
